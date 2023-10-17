@@ -81,3 +81,26 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
+
+
+
+
+
+
+"""
+use this commands in cmd
+
+curl http://localhost:5000/books
+
+curl http://localhost:5000/books/2
+
+curl -X POST -H "Content-Type: application/json" -d "{\"book_name\":\"abc\",\"author\":\"added_book\"}" http://127.0.0.1:5000/books
+
+curl -X PUT -H "Content-Type: application/json" -d "{\"book_name\":\"Updated book\"}" http://127.0.0.1:5000/books/2
+
+
+curl -X DELETE http://localhost:5000/books/<book_id>
+curl -X DELETE http://localhost:5000/books/3
+
+"""
+
