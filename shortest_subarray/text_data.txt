@@ -1,0 +1,5 @@
+In this example, we will demonstrate the functionality using a provided text data.
+This is a Python program that finds the shortest subarray containing words.
+The program will return the start and end indices of the subarray, or a message if no such subarray exists.
+You can modify the word list to search for different words within the text.
+Feel free to customize the program for your specific needs.
